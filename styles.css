@@ -91,3 +91,9 @@ button[type="speak"] {
     border: none;
     border-radius: 4px;
 }
+
+/* the following code is makes the website smartphone friendly */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
