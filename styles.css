@@ -1,0 +1,93 @@
+/* css for the cards container */
+.card-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+
+/* css for the cards themselves */
+.card {
+    width: 250px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.3s ease, border-width 0.3s ease; 
+}
+
+/* css for the cards heading */
+.card h2 {
+    color: #333; /* Text color for the header */
+    border: 2px solid white; /* Add a white border around the header */
+    padding: 10px; /* Optional: Add padding to create space between text and border */
+    background-color: white;
+    border-width: 50%;
+}
+
+/* css for making the background image of the first card */
+#card1 {
+    background-image: url("https://plus.unsplash.com/premium_photo-1669888245224-8fe296e1bc60?q=80&w=2160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    border-radius: 8px; 
+}
+
+/* css for making the background image of the second card */
+#card2 {
+    background-image: url("https://images.unsplash.com/photo-1617720197521-cac54ab8fe8b?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: 100%; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    border-radius: 8px; 
+}
+
+/* css for making the background image of the third card */
+#card3 {
+    background-image: url("https://images.unsplash.com/photo-1426543881949-cbd9a76740a4?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: 100%; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    border-radius: 8px; 
+}
+
+/* css for making the background image of the fourth card */
+#card4 {
+    background-image: url("https://images.unsplash.com/photo-1597149306035-5f6758b04d57?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: 100%; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    border-radius: 8px; 
+}
+
+/* css for the header of the website */
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* css for the heading panel of the website */
+.panel {
+    background-color: #333;
+    padding: 20px;
+    width: 100%; /* Adjusts the panel to reach the edges of the screen */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+/* css for the enlarged form of the cards */
+.enlarged {
+    transform: scale(1.1); /* Enlarge the card slightly */
+    transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+/* css for the speak button */
+button[type="speak"] {
+    font-size: 16px;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+}
